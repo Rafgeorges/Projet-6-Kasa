@@ -1,0 +1,15 @@
+.section--topimage--container {
+  border-radius: 25px;
+  height: 225px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.section--topimage {
+  opacity: 0.7;
+}
+
+.section--topimage--titre {
+  font-size: 50px;
+  color: blue;
+}
