@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.cards--container {
+  border-radius: 25px;
+  background-color: #f6f6f6;
+  display: grid;
+  grid-row-end: 3;
+  padding: 50px;
+}
+/****** Media queries ***********/
+
+/* TABLET 768px */
+@media (max-width: 768px) {
+  .main {
+    gap: 33px;
+  }
+}
+
+/* MOBILE 375px */
+@media (max-width: 375px) {
+  .main {
+    gap: 20px;
+  }
+}

@@ -7,8 +7,8 @@ export default function Header(){
                 <img src={kasaLogo} alt='kasalogo'className='header--logo'/>
                 <nav>
                     <ul className='kasa--menu'>
-                        <li>Accueil</li>
-                        <li>A propos</li>
+                        <li>ACCUEIL</li>
+                        <li>A PROPOS</li>
                     </ul>
                 </nav>
         </header>

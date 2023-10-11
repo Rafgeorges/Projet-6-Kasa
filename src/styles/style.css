@@ -1,6 +1,26 @@
 body {
   font-family: "Montserrat";
-
   max-width: 1240px;
   margin: auto;
+  padding: 50px 100px;
+}
+
+/****** Media queries ***********/
+
+/* TABLET 768px */
+@media (max-width: 768px) {
+  body {
+    max-width: 1240px;
+    margin: auto;
+    padding: 33px 50px;
+  }
+}
+
+/* MOBILE 375px */
+@media (max-width: 375px) {
+  body {
+    max-width: 335px;
+    margin: auto;
+    padding: 20px;
+  }
 }
