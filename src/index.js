@@ -6,6 +6,7 @@ import './styles/Header.css';
 import './styles/Banner.css'
 import './styles/Main.css'
 import './styles/Card.css'
+import './styles/Footer.css'
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

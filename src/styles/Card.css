@@ -1,12 +1,38 @@
 .card {
-  background-color: aqua;
-  outline: 1px solid black;
-
   border-radius: 10px;
   width: 340px;
   height: 340px;
+  overflow: hidden;
+  position: relative;
 }
 
+.card--img {
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+}
+
+.overlay {
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    transparent,
+    rgba(0, 0, 0, 0.24),
+    rgba(0, 0, 0, 0.589)
+  );
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.card--title {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
 /****** Media queries ***********/
 
 /* TABLET 768px */
@@ -15,11 +41,23 @@
     height: 290px;
     width: 100%;
   }
+
+  .card--img {
+    position: absolute;
+    height: auto;
+    width: 100%;
+  }
 }
 
 /* MOBILE 375px */
 @media (max-width: 375px) {
   .card {
     height: 255px;
+  }
+
+  .card--img {
+    position: absolute;
+    height: 100%;
+    width: auto;
   }
 }

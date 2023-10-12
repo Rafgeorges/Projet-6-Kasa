@@ -1,7 +1,8 @@
+import logementsData from '../logements.json'
+
 import Header from './Header';
 import Banner from './Banner';
 import Card from './Card';
-import logementsData from '../logements.json'
 
 
 
@@ -18,6 +19,7 @@ export default function Main(){
             <Card
              key={item.id}
              title={item.title}
+             cover={item.cover}
             />
         )})
 
