@@ -7,8 +7,9 @@
 .cards--container {
   border-radius: 25px;
   background-color: #f6f6f6;
-  display: grid;
-  grid-row-end: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
   padding: 50px;
 }
 /****** Media queries ***********/
@@ -18,11 +19,23 @@
   .main {
     gap: 33px;
   }
+
+  .cards--container {
+    background-color: transparent;
+    gap: 33px;
+    padding: 0px;
+  }
 }
 
 /* MOBILE 375px */
 @media (max-width: 375px) {
   .main {
     gap: 20px;
+  }
+
+  .cards--container {
+    background-color: transparent;
+    gap: 20px;
+    padding: 0px;
   }
 }

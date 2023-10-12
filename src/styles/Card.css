@@ -6,3 +6,20 @@
   width: 340px;
   height: 340px;
 }
+
+/****** Media queries ***********/
+
+/* TABLET 768px */
+@media (max-width: 768px) {
+  .card {
+    height: 290px;
+    width: 100%;
+  }
+}
+
+/* MOBILE 375px */
+@media (max-width: 375px) {
+  .card {
+    height: 255px;
+  }
+}
