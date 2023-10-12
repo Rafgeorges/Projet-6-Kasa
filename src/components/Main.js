@@ -29,6 +29,5 @@ export default function Main(){
                 <div className='cards--container'>
                     {cards}
                 </div>
-                   
             </div>
 }
