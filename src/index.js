@@ -7,6 +7,7 @@ import './styles/Banner.css'
 import './styles/Main.css'
 import './styles/Card.css'
 import './styles/Footer.css'
+import './styles/Logement.css'
 
 
 

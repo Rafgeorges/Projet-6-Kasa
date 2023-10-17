@@ -1,0 +1,77 @@
+.logement--container {
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid cyan;
+  padding: 0px 100px 50px 100px;
+  gap: 50px;
+}
+
+.logement--cover {
+  height: 415px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.logement--content {
+  outline: 1px solid rgb(93, 255, 53);
+  display: flex;
+  justify-content: space-between;
+}
+.logement--title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 51.34px;
+  color: #ff6060;
+  margin: 0px;
+  border: 1px solid black;
+}
+
+.logement--tags {
+}
+
+.logement--description {
+  font-size: 18px;
+  color: #ff6060;
+  margin: 0px;
+}
+
+.logement--deroulants {
+  outline: 1px solid brown;
+}
+/****** Media queries ***********/
+/* TABLET 768px */
+@media (max-width: 768px) {
+}
+/* MOBILE 375px */
+@media (max-width: 375px) {
+  .logement--container {
+    padding: 0px 20px 20px 20px;
+    gap: 20px;
+  }
+
+  .logement--cover {
+    height: 255px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .logement--content {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-side {
+    display: flex;
+    outline: 1px solid red;
+    justify-content: space-between;
+  }
+  .logement--title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 51.34px;
+    color: #ff6060;
+    margin: 0px;
+  }
+  .logement--description {
+    font-size: 14px;
+    margin: 0px;
+  }
+}

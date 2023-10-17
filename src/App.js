@@ -1,10 +1,8 @@
 
 
-import Main from './components/Main';
-import	Footer from './components/Footer';
-import PageLogement from './components/Logement';
+import PageLogement from './components/PageLogement';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import Home from './components/Home';
+import PageHome from './components/PageHome';
 
 
 
@@ -24,7 +22,7 @@ function App() {
 
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Home/>} />
+      <Route path='/' element={<PageHome/>} />
       <Route path='/logements/:id' element={<PageLogement/> } />
     </Routes>
   </BrowserRouter>
