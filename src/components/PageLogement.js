@@ -21,7 +21,6 @@ export default function PageLogement(){
             location={logementsData[index].location}
             hostname={logementsData[index].host.name}
             hostpicure={logementsData[index].host.picture}
-            tags = {logementsData[index].tags}
         />
         <Footer/>
         </>

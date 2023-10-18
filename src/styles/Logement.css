@@ -17,16 +17,30 @@
   display: flex;
   justify-content: space-between;
 }
+.logement--content--left-side {
+  display: flex;
+  flex-direction: column;
+}
 .logement--title {
   font-size: 36px;
   font-weight: 500;
   line-height: 51.34px;
   color: #ff6060;
   margin: 0px;
-  border: 1px solid black;
 }
-
-.logement--tags {
+.logements--tags--container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.logements--tags {
+  background-color: #ff6060;
+  border-radius: 10px;
+  min-width: 115px;
+  padding: 2.5px 20px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
 }
 
 .logement--description {
