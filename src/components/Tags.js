@@ -2,7 +2,7 @@ import logementsData from '../logements.json'
 import { useParams } from "react-router-dom"
 
 
-export default function Tags(props) {
+export default function Tags() {
     
   
   //Obtention de l'index du logement de cette page

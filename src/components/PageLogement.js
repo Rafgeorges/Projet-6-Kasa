@@ -10,17 +10,19 @@ export default function PageLogement(){
 
     //Obtention de l'index du logement de cette page
     const index = logementsData.findIndex(item => item.id === params.id);
+    const currentLogement = logementsData[index]
+
     
      return <>
         <Header/>
         <Logement
-            key={logementsData[index].id}
-            title={logementsData[index].title}
-            description={logementsData[index].description}
-            cover={logementsData[index].cover}
-            location={logementsData[index].location}
-            hostname={logementsData[index].host.name}
-            hostpicure={logementsData[index].host.picture}
+            key={currentLogement.id}
+            title={currentLogement.title}
+            description={currentLogement.description}
+            cover={currentLogement.cover}
+            location={currentLogement.location}
+            hostname={currentLogement.host.name}
+            hostpicture={currentLogement.host.picture}
         />
         <Footer/>
         </>
