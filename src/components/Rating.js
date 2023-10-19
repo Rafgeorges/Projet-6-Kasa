@@ -11,9 +11,9 @@ export default function Rating(props){
     return(
         <div className='rating--container'>
             {stars.map((item)=> rating>= item ?(
-                <img className='rating--star' src={StarRed}/>)
+                <img className='rating--star' key ={item} src={StarRed}/>)
                 :
-                (<img className='rating--star' src={StarGrey}/>)
+                (<img className='rating--star' key ={item} src={StarGrey}/>)
             )}
         </div>
         )

@@ -13,6 +13,7 @@
   flex-wrap: wrap;
   gap: 50px;
   padding: 50px;
+  outline: 1px solid green;
 }
 /****** Media queries ***********/
 
@@ -27,6 +28,7 @@
     background-color: transparent;
     gap: 33px;
     padding: 0px;
+    flex-direction: column;
   }
 }
 
@@ -41,5 +43,8 @@
     background-color: transparent;
     gap: 20px;
     padding: 0px;
+  }
+
+  .cards--container {
   }
 }

@@ -2,6 +2,7 @@ import Tags from "./Tags";
 import { useParams } from "react-router-dom"
 import logementsData from '../logements.json'
 import Rating from "./Rating"
+import Collapse from './Collapse'
 
 
 
@@ -43,7 +44,9 @@ return <div className="logement--container">
                     </div>
                 </div>
                 <div className="logement--deroulants">
-                    descriptions
+                    <Collapse
+                        title='titre du truc'
+                        content='salut'/>
                 </div>
            </div>
 }

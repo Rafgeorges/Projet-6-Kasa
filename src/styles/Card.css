@@ -4,6 +4,7 @@
   height: 340px;
   overflow: hidden;
   position: relative;
+  outline: 1px solid blueviolet;
 }
 
 .card--img {

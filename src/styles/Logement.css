@@ -3,6 +3,7 @@
   flex-direction: column;
   padding: 0px 100px 50px 100px;
   gap: 50px;
+  outline: 1px solid blueviolet;
 }
 
 .logement--cover {
@@ -87,12 +88,29 @@
   padding: 5px;
 }
 
-.logement--deroulants {
-  outline: 1px solid brown;
+.collapse__container {
+  outline: 1px solid gray;
+}
+.collapse__title {
+  background-color: #ff6060;
+}
+
+.arrow_up {
+  transform: rotate(180deg);
+}
+
+.collapse__content {
+  outline: 1px solid blueviolet;
+  transition: all 0.2s ease-in-out;
 }
 /****** Media queries ***********/
 /* TABLET 768px */
 @media (max-width: 768px) {
+  .logement--container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px 50px 50px;
+  }
 }
 /* MOBILE 375px */
 @media (max-width: 375px) {
