@@ -8,7 +8,6 @@
 .about--banner {
   height: 223px;
   width: 100%;
-  outline: 1px solid black;
   overflow: hidden;
   border-radius: 25px;
 }
@@ -26,4 +25,43 @@
   height: 52px;
   background-color: #ff6060;
   border-radius: 5px;
+}
+/****** Media queries ***********/
+/* TABLET 768px */
+@media (max-width: 768px) {
+  .about--main {
+    gap: 33px;
+    padding: 0px 33px 33px 33px;
+  }
+
+  .about--banner {
+    border-radius: 10px;
+    height: 111px;
+  }
+  .about--collapse--container {
+    gap: 30px;
+    padding: 0px;
+  }
+  .about--collapses {
+    height: 40px;
+  }
+}
+/* MOBILE 375px */
+@media (max-width: 375px) {
+  .about--main {
+    gap: 20px;
+    padding: 0px 20px 20px 20px;
+  }
+
+  .about--banner {
+    border-radius: 10px;
+    height: 111px;
+  }
+  .about--collapse--container {
+    gap: 20px;
+    padding: 0;
+  }
+  .about--collapses {
+    height: 30px;
+  }
 }
