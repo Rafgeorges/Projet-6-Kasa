@@ -3,6 +3,7 @@ body {
   max-width: 1440px;
   margin: auto;
   border: 2px solid red;
+  height: auto;
 }
 
 /****** Media queries ***********/
