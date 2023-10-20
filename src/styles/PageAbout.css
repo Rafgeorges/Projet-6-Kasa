@@ -1,0 +1,29 @@
+.about--main {
+  padding: 0px 100px 35px 100px;
+  outline: 1px solid skyblue;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.about--banner {
+  height: 223px;
+  width: 100%;
+  outline: 1px solid black;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.about--banner img {
+  width: 100%;
+}
+.about--collapse--container {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding: 0px 110px;
+  outline: 1px solid darkblue;
+}
+.about--collapses {
+  height: 52px;
+  background-color: #ff6060;
+  border-radius: 5px;
+}

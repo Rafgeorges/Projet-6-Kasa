@@ -1,5 +1,6 @@
 import kasaLogo from '../assets/images/logo.png'
 import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 export default function Header(){
@@ -11,8 +12,8 @@ export default function Header(){
                 </Link>
                 <nav>
                     <ul className='kasa--menu'>
-                        <li>ACCUEIL</li>
-                        <li>A PROPOS</li>
+                        <NavLink  to={`/`}><li>Accueil</li></NavLink> 
+                        <NavLink  to={`/About`}><li>A Propos</li></NavLink>
                     </ul>
                 </nav>
         </header>

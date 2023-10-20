@@ -3,18 +3,7 @@
 import PageLogement from './components/PageLogement';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import PageHome from './components/PageHome';
-
-
-
-function About(){
-  return (
-    <h1> Salut les potos</h1>
-  )
-}
-
-
-
-
+import PageAbout from './components/PageAbout';
 
 function App() {
   return (
@@ -24,6 +13,7 @@ function App() {
     <Routes>
       <Route path='/' element={<PageHome/>} />
       <Route path='/logements/:id' element={<PageLogement/> } />
+      <Route path='/about' element={<PageAbout/>}/>
     </Routes>
   </BrowserRouter>
   );
