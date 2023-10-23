@@ -10,7 +10,7 @@ import './styles/Footer.css'
 import './styles/Logement.css'
 import './styles/PageAbout.css'
 import './styles/PageError.css'
-
+import './styles/Slideshow.css'
 
 
 

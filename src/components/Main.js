@@ -6,17 +6,16 @@ import Card from './Card';
 export default function Main(){
     const cards = logementsData.map(item =>{
         return (
-
             <Link to={`/logements/${item.id}`}>
             <Card
              key={item.id}
              title={item.title}
              cover={item.cover}
             />
+            <p>{item.id}</p>
             </Link>
             
         )})
-
     return <div className="main">
                 <Banner/>
                 <div className='cards--container'>

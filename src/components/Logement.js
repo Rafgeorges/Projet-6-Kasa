@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 import logementsData from '../logements.json'
 import Rating from "./Rating"
 import Collapse from './Collapse'
+import Slideshow from "./Slideshow";
 
 
 
@@ -16,7 +17,7 @@ export default function Logement(props){
     console.log(currentLogement.rating)
 
 return <div className="logement--container">
-                <img className='logement--cover'src={props.cover} alt={props.title}/>
+                <Slideshow/>
                 <div className="logement--content">
                     <div className="logement--content--left-side">
                         <h1 className="logement--title">{props.title}</h1> 
@@ -36,6 +37,7 @@ return <div className="logement--container">
                         </div>
                         <Rating
                             rating={currentLogement.rating}
+                            key={currentLogement.title}
                             />
                         
                             
