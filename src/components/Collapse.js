@@ -24,4 +24,3 @@ export default function Collapse(props) {
             
     )
 }
-// {toggle && <p  className='collapse--description'>{props.content}</p>}

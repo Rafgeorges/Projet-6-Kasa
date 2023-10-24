@@ -16,6 +16,9 @@ export default function Logement(props){
 
     console.log(currentLogement.rating)
 
+    const equipListe = currentLogement.equipments.map((item, index) => {
+        return <li key={index}>{item}</li>
+    })
 return <div className="logement--container">
                 <Slideshow/>
                 <div className="logement--content">
@@ -51,7 +54,7 @@ return <div className="logement--container">
                         content={currentLogement.description}/>
                     <Collapse
                         title='Équipements'
-                        content={currentLogement.equipments}/>
+                        content={equipListe}/>
                 </div>
            </div>
 }
