@@ -12,14 +12,18 @@ export default function PageAbout(){
                 <img src={aboutBanner} alt="banner_picture"/>
             </div>
             <div className="about--collapse--container">
-                <div className="about--collapses"></div>
-                <div className="about--collapses"></div>
-                <div className="about--collapses"></div>
-                <div className="about--collapses"></div>
-            {/* <Collapse/>
-            <Collapse/>
-            <Collapse/>
-            <Collapse/> */}   
+                <Collapse
+                    title='salut'
+                    />
+                <Collapse
+                    title='salut'
+                    />
+                <Collapse
+                title='salut'
+                />
+                <Collapse
+                    title='salut'
+                /> 
             </div>
         </div>
         <Footer/>

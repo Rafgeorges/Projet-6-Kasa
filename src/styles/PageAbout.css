@@ -21,11 +21,7 @@
   padding: 0px 110px;
   outline: 1px solid darkblue;
 }
-.about--collapses {
-  height: 52px;
-  background-color: #ff6060;
-  border-radius: 5px;
-}
+
 /****** Media queries ***********/
 /* TABLET 768px */
 @media (max-width: 768px) {

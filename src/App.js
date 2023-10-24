@@ -13,9 +13,12 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<PageHome/>} />
-      <Route path='/logements/:id' element={<PageLogement/> } />
+      <Route 
+        path='/logements/:id' 
+        element={<PageLogement/> } 
+      />
       <Route path='/about' element={<PageAbout/>}/>
-      <Route path='/error' element={<PageError/>}/>
+      <Route path='*' element={<PageError/>}/>
     </Routes>
   </BrowserRouter>
   );

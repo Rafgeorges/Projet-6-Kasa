@@ -1,0 +1,51 @@
+.slideshow--container {
+  outline: 1px solid grey;
+  position: relative;
+}
+.logement--cover {
+  height: 415px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.btn--next {
+  position: absolute;
+  top: 40%;
+  right: 0px;
+  transform: rotate(180deg);
+  height: 80px;
+  margin-right: 10px;
+}
+.btn--prev {
+  position: absolute;
+  top: 40%;
+  height: 80px;
+  margin-left: 10px;
+}
+/****** Media queries ***********/
+/* TABLET 768px */
+@media (max-width: 768px) {
+}
+/* MOBILE 375px */
+@media (max-width: 375px) {
+  .logement--cover {
+    height: 255px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .btn--next {
+    position: absolute;
+    top: 47%;
+    right: 0px;
+    height: 24px;
+    cursor: pointer;
+  }
+  .btn--prev {
+    position: absolute;
+    top: 47%;
+    height: 24px;
+    cursor: pointer;
+  }
+}

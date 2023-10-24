@@ -47,8 +47,11 @@ return <div className="logement--container">
                 </div>
                 <div className="logement--deroulants">
                     <Collapse
-                        title='titre du truc'
-                        content='salut'/>
+                        title='Description'
+                        content={currentLogement.description}/>
+                    <Collapse
+                        title='Équipements'
+                        content={currentLogement.equipments}/>
                 </div>
            </div>
 }

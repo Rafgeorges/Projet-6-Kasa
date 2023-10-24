@@ -1,6 +1,8 @@
 import logementsData from '../logements.json'
 import { useParams } from "react-router-dom"
 import { useState } from 'react';
+import arrow from '../assets/images/Arrow_white.png';
+
 
 export default function Slideshow(){
 
@@ -24,11 +26,11 @@ export default function Slideshow(){
                 (PictureCount === 0) ? 4 : prevState => prevState-1 )
         console.log(PictureCount)
     }
-    return <>
-            <button className='btn-next' onClick={nextSlide}>NEXT</button>
-            <button className='btn-prev' onClick={prevSlide}>PREV</button>
-            <img src={logementPictures[PictureCount]} alt={currentLogement.title} />
-            </>
+    return <div className='slideshow--container'>
+            <img src={arrow}  className='btn--next'alt='white--arrow' onClick={nextSlide}/>
+            <img src={arrow}  className='btn--prev' alt='white--arrow' onClick={prevSlide}/>
+            <img className='logement--cover' src={logementPictures[PictureCount]} alt={currentLogement.title} />
+            </div>
     
 
 }

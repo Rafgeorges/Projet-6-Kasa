@@ -9,22 +9,19 @@ export default function Collapse(props) {
         setToggle(prevState => !prevState)
     }
 
-    return (
-        
-            <div className="collapse__container" >
-                <div className='collapse__title' onClick={toggling}>
-                    <h2>{props.title}</h2>
+    return (<div className="collapse__container" >
+                <div className='collapse__header' onClick={toggling}>
+                    <h2 className='collapse--title'>{props.title}</h2>
                     <img src={arrow} className={toggle?'arrow_down':'arrow_up'}/> 
                 </div>
-                <div className='collapse__content'>
-                    {toggle && <p>{props.content}</p>}
+                <div className={toggle? 'content--shown':'content--hidden'}>
+                    <div className={'collapse--content'}>
+                        <p  className='collapse--description'>{props.content}</p>
+                    </div>                     
                 </div>
-                
-                                        
-               
-            </div>
-        
+           </div>
+            
+            
     )
 }
-
-
+// {toggle && <p  className='collapse--description'>{props.content}</p>}
