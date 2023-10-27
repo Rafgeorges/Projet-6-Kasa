@@ -1,5 +1,4 @@
 .slideshow--container {
-  outline: 1px solid grey;
   position: relative;
 }
 .logement--cover {
@@ -16,12 +15,14 @@
   transform: rotate(180deg);
   height: 80px;
   margin-right: 10px;
+  cursor: pointer;
 }
 .btn--prev {
   position: absolute;
   top: 40%;
   height: 80px;
   margin-left: 10px;
+  cursor: pointer;
 }
 /****** Media queries ***********/
 /* TABLET 768px */

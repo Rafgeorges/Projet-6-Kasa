@@ -11,7 +11,7 @@ export default function Tags() {
     const logementsTags = logementsData[index].tags //Obtention de l'array des tags
 
     //Création des bouttons selon l'array des tags
-    const tags = logementsTags.map(item => <div className='logements--tags'>{item}</div>)
+    const tags = logementsTags.map((item, index) => <div className='logements--tags' key={index}>{item}</div>)
 	
   return <div className='logements--tags--container'>{tags}</div>
        

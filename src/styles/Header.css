@@ -2,8 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 100px;
+  padding: 50px 0px;
   text-decoration: none;
+  max-width: 1240px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header--logo {
@@ -37,7 +41,9 @@
 /* TABLET 768px */
 @media (max-width: 768px) {
   .header {
-    padding: 33px 50px;
+    padding: 33px 0px;
+    max-width: 1240px;
+    width: 700px;
   }
 
   .header--logo {
@@ -48,7 +54,10 @@
 /* MOBILE 375px */
 @media (max-width: 375px) {
   .header {
-    padding: 20px;
+    padding: 20px 20px;
+    width: 335px;
+
+    margin: 0px;
   }
 
   .header--logo {

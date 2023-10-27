@@ -25,9 +25,7 @@ return <div className="logement--container">
                     <div className="logement--content--left-side">
                         <h1 className="logement--title">{props.title}</h1> 
                         <p className="logement--localisation">{props.location}</p>
-                        <Tags
-                            key={currentLogement.tags}
-                        />
+                        <Tags/>
                         
                     </div>
                     <div className="logement--content--right-side">

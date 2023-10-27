@@ -12,7 +12,6 @@ export default function Main(){
              title={item.title}
              cover={item.cover}
             />
-            <p>{item.id}</p>
             </Link>
             
         )})

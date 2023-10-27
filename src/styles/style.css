@@ -1,9 +1,7 @@
 body {
   font-family: "Montserrat", serif;
-
-  max-width: 1440px;
   margin: auto;
-  height: auto;
+  min-height: 100vh;
 }
 
 /****** Media queries ***********/

@@ -3,10 +3,10 @@ import Footer from "./Footer";
 import Header from "./Header";
 
 export default function PageError(){
-    return <>
-            <Header/>
-            <ErrorDisplay/>
-            <Footer/>
-        </>
+    return <div className="pageError__container">
+                <Header/>
+                <ErrorDisplay/>
+                <Footer/>
+            </div>
         
 }

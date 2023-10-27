@@ -13,18 +13,18 @@ export default function PageLogement(){
     const currentLogement = logementsData[index]
 
     
-     return <>
-        <Header/>
-        <Logement
-            key={currentLogement.id}
-            title={currentLogement.title}
-            description={currentLogement.description}
-            cover={currentLogement.cover}
-            location={currentLogement.location}
-            hostname={currentLogement.host.name}
-            hostpicture={currentLogement.host.picture}
-        />
-        <Footer/>
-        </>
+     return <div className="Pagelogement">
+                <Header/>
+                <Logement
+                    key={currentLogement.id}
+                    title={currentLogement.title}
+                    description={currentLogement.description}
+                    cover={currentLogement.cover}
+                    location={currentLogement.location}
+                    hostname={currentLogement.host.name}
+                    hostpicture={currentLogement.host.picture}
+                />
+                <Footer/>
+            </div>
      }
  

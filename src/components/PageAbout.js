@@ -5,7 +5,7 @@ import aboutBanner from '../assets/images/fond2.png'
 
 export default function PageAbout(){
     return (
-        <>
+        <div className="pageAbout">
         <Header/>
         <div className="about--main">
             <div className="about--banner">
@@ -36,6 +36,6 @@ export default function PageAbout(){
             </div>
         </div>
         <Footer/>
-        </>
+        </div>
     )
 }
