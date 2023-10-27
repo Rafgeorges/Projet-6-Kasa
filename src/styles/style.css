@@ -2,6 +2,9 @@ body {
   font-family: "Montserrat", serif;
   margin: auto;
   min-height: 100vh;
+  border: 1px solid red;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 /****** Media queries ***********/
@@ -19,5 +22,6 @@ body {
   body {
     max-width: 375px;
     margin: auto;
+    padding: 0px 20px 0px 20px;
   }
 }

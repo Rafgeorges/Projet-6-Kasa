@@ -5,6 +5,7 @@
   flex-direction: column;
   gap: 50px;
   padding: 50px 0px;
+  outline: 1px solid blue;
 }
 
 .cards--container {
@@ -21,7 +22,7 @@
 @media (max-width: 768px) {
   .main {
     gap: 33px;
-    padding: 0px 33px 33px 33px;
+    padding: 0px 0px 33px 0px;
   }
 
   .cards--container {
@@ -36,7 +37,7 @@
 @media (max-width: 375px) {
   .main {
     gap: 20px;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 0px 20px 0px;
   }
 
   .cards--container {

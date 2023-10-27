@@ -3,7 +3,7 @@
   width: 100%;
 }
 .collapse__container > div {
-  transition: transform 0.1s;
+  transition: transform 0.8s;
   transform-origin: 50% 0%;
 }
 .collapse__header {

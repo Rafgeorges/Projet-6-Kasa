@@ -21,6 +21,8 @@
   font-size: 50px;
   color: rgb(255, 255, 255);
   margin: 0;
+  padding: 16px;
+
   z-index: 2;
 }
 
@@ -35,7 +37,7 @@
 
   .section--topimage--titre {
     font-size: 28px;
-    padding-left: 16px;
+    padding: 16px;
   }
 }
 
@@ -49,6 +51,6 @@
   .section--topimage--titre {
     font-size: 24px;
     max-width: 235px;
-    padding-left: 16px;
+    padding: 16px;
   }
 }
