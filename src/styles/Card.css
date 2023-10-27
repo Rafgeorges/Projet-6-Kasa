@@ -4,6 +4,7 @@
   height: 340px;
   overflow: hidden;
   position: relative;
+  outline: 1px solid saddlebrown;
 }
 
 .card--img {
@@ -49,8 +50,8 @@
   }
 }
 
-/* MOBILE 375px */
-@media (max-width: 375px) {
+/* MOBILE 500px */
+@media (max-width: 500px) {
   .card {
     height: 255px;
   }

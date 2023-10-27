@@ -13,8 +13,10 @@
   background-color: #f6f6f6;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 50px;
   padding: 50px;
+  outline: 1px solid yellowgreen;
 }
 /****** Media queries ***********/
 
