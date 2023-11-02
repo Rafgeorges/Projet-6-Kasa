@@ -1,35 +1,26 @@
 .pageAbout {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  justify-content: space-between;
 }
 
 .about--main {
-  padding: 0px 100px 35px 100px;
   display: flex;
   flex-direction: column;
   gap: 35px;
   max-width: 1240px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: auto;
+  padding-bottom: 35px;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
-.about--banner {
-  height: 223px;
-  width: 100%;
-  overflow: hidden;
-  border-radius: 25px;
-}
-.about--banner img {
-  width: 100%;
-  position: relative;
-  bottom: 18em;
-}
+
 .about--collapse--container {
   display: flex;
   flex-direction: column;
   gap: 35px;
-  padding: 0px 110px;
   margin-bottom: 50px;
 }
 
@@ -38,7 +29,6 @@
 @media (max-width: 768px) {
   .about--main {
     gap: 33px;
-    padding: 0px 33px 33px 33px;
   }
 
   .about--banner {
@@ -52,17 +42,15 @@
   }
   .about--collapse--container {
     gap: 30px;
-    padding: 0px;
   }
   .about--collapses {
     height: 40px;
   }
 }
-/* MOBILE 375px */
-@media (max-width: 375px) {
+/* MOBILE 500px */
+@media (max-width: 500px) {
   .about--main {
     gap: 20px;
-    padding: 0px 20px 20px 20px;
   }
 
   .about--banner {
@@ -75,7 +63,6 @@
   }
   .about--collapse--container {
     gap: 20px;
-    padding: 0;
   }
   .about--collapses {
     height: 30px;

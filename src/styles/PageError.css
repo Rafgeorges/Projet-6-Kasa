@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  border: 3px solid red;
+  min-height: 100vh;
 }
 
 .error--content {
@@ -11,6 +12,7 @@
   align-items: center;
   gap: 130px;
   padding: 130px;
+  border: 3px solid blueviolet;
 }
 
 .error--content h1 {
@@ -53,8 +55,8 @@
     font-size: 14px;
   }
 }
-/* MOBILE 375px */
-@media (max-width: 375px) {
+/* MOBILE 500px */
+@media (max-width: 500px) {
   .error--content {
     padding: 50px;
   }

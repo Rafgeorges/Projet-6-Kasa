@@ -2,9 +2,6 @@ body {
   font-family: "Montserrat", serif;
   margin: auto;
   min-height: 100vh;
-  border: 1px solid red;
-  padding-left: 5vw;
-  padding-right: 5vw;
 }
 
 /****** Media queries ***********/

@@ -7,6 +7,8 @@ export default function PageError(){
                 <Header/>
                 <ErrorDisplay/>
                 <Footer/>
-            </div>
+           </div>
+            
+    
         
 }

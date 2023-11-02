@@ -61,9 +61,12 @@
 /****** Media queries ***********/
 /* TABLET 768px */
 @media (max-width: 768px) {
+  .collapse__header {
+    font-size: 14px;
+  }
 }
-/* MOBILE 375px */
-@media (max-width: 375px) {
+/* MOBILE 500px */
+@media (max-width: 500px) {
   .collapse__header {
     height: 30px;
     border-radius: 5px;

@@ -4,8 +4,10 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  padding: 50px 0px;
-  outline: 1px solid blue;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .cards--container {
@@ -16,7 +18,6 @@
   justify-content: center;
   gap: 50px;
   padding: 50px;
-  outline: 1px solid yellowgreen;
 }
 /****** Media queries ***********/
 
@@ -24,7 +25,9 @@
 @media (max-width: 768px) {
   .main {
     gap: 33px;
-    padding: 0px 0px 33px 0px;
+    padding-bottom: 33px;
+    padding-left: 5vw;
+    padding-right: 5vw;
   }
 
   .cards--container {

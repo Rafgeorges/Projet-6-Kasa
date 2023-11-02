@@ -1,10 +1,13 @@
 .logement--container {
   display: flex;
   flex-direction: column;
-  padding: 0px 100px 50px 100px;
+  padding-bottom: 50px;
+  padding-right: 5vw;
+  padding-left: 5vw;
   gap: 50px;
   max-width: 1240px;
   margin: auto;
+  outline: 1px solid firebrick;
 }
 
 .logement--content {
@@ -86,7 +89,7 @@
   display: flex;
   align-content: center;
   justify-content: space-between;
-  gap: 76px;
+  gap: 5vw;
 }
 /****** Media queries ***********/
 /* TABLET 768px */
@@ -94,11 +97,15 @@
   .logement--container {
     display: flex;
     flex-direction: column;
-    padding: 0px 50px 50px 50px;
+  }
+  .logement--title {
+    font-size: 24px;
+
+    line-height: 25px;
   }
 }
-/* MOBILE 375px */
-@media (max-width: 375px) {
+/* MOBILE 500px */
+@media (max-width: 500px) {
   .logement--container {
     padding: 0px 20px 20px 20px;
     gap: 20px;

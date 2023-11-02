@@ -12,7 +12,6 @@ import './styles/PageAbout.css'
 import './styles/PageError.css'
 import './styles/Slideshow.css'
 import './styles/Collapse.css'
-import './styles/PageLogement.css'
 
 
 
