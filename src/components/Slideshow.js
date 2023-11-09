@@ -29,6 +29,7 @@ export default function Slideshow(){
     return <div className='slideshow--container'>
             <img src={arrow}  className='btn--next'alt='white--arrow' onClick={nextSlide}/>
             <img src={arrow}  className='btn--prev' alt='white--arrow' onClick={prevSlide}/>
+            <p className='logement--picture--count'>{PictureCount+1}/{logementPictures.length}</p>
             <img className='logement--cover' src={logementPictures[PictureCount]} alt={currentLogement.title} />
             </div>
     

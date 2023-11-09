@@ -24,9 +24,19 @@
   margin-left: 10px;
   cursor: pointer;
 }
+.logement--picture--count {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  color: white;
+  font-size: 18px;
+}
 /****** Media queries ***********/
 /* TABLET 768px */
 @media (max-width: 768px) {
+  .logement--picture--count {
+    display: none;
+  }
 }
 /* MOBILE 375px */
 @media (max-width: 375px) {
