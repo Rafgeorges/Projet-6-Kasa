@@ -1,3 +1,5 @@
+
+//Logement
 .logement--container {
   display: flex;
   flex-direction: column;
@@ -13,23 +15,24 @@
   display: flex;
   justify-content: space-between;
 }
-
 .logement--content--left-side {
   display: flex;
   flex-direction: column;
+      h1 {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 51.34px;
+        color: #ff6060;
+        margin: 0px;
+      }
+      p {
+        font-size: 18px;
+        color: #ff6060;
+        margin: 0px;
+      }
 }
-.logement--content--left-side h1 {
-  font-size: 36px;
-  font-weight: 500;
-  line-height: 51.34px;
-  color: #ff6060;
-  margin: 0px;
-}
-.logement--content--left-side p {
-  font-size: 18px;
-  color: #ff6060;
-  margin: 0px;
-}
+
+
 
 .logements--tags--container {
   display: flex;
@@ -37,7 +40,6 @@
   margin-top: 20px;
   flex-wrap: wrap;
 }
-
 .logements--tags {
   background-color: #ff6060;
   border-radius: 10px;
@@ -47,7 +49,6 @@
   font-size: 14px;
   color: white;
 }
-
 .logement--content--right-side {
   display: flex;
   flex-direction: column;
@@ -58,24 +59,25 @@
   display: flex;
   align-items: center;
   justify-content: right;
+    p {
+      color: #ff6060;
+      font-size: 18px;
+      text-align: right;
+      max-width: 90px;
+      height: 64px;
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+    img {
+      height: 64px;
+      width: 64px;
+      border-radius: 50%;
+      object-fit: contain;
+      margin-left: 10px;
+    }
 }
-.logement--host--container p {
-  color: #ff6060;
-  font-size: 18px;
-  text-align: right;
-  max-width: 90px;
-  height: 64px;
-  margin: 0;
-  display: flex;
-  align-items: center;
-}
-.logement--host--container img {
-  height: 64px;
-  width: 64px;
-  border-radius: 50%;
-  object-fit: contain;
-  margin-left: 10px;
-}
+
 
 .rating--container {
   display: flex;
@@ -88,14 +90,12 @@
   height: auto;
   padding: 5px;
 }
-
 .logement--deroulants {
   display: flex;
   align-content: center;
   justify-content: space-between;
   gap: 5vw;
 }
-
 /****** Media queries ***********/
 /* TABLET 768px */
 @media (max-width: 768px) {
@@ -103,37 +103,50 @@
     display: flex;
     flex-direction: column;
   }
-  .logement--content--left-side h1 {
-    font-size: 24px;
-    line-height: 25px;
+  .logement--content--left-side {
+    h1 {
+      font-size: 24px;
+      line-height: 25px;
+      }
   }
 }
+
 /* MOBILE 500px */
 @media (max-width: 500px) {
   .logement--container {
     padding: 0px 20px 20px 20px;
     gap: 20px;
   }
+
   .logement--content {
     display: flex;
     flex-direction: column;
   }
-  .logement--content--left-side h1 {
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 51.34px;
-    color: #ff6060;
-    margin: 0px;
-    line-height: 25px;
+  .logement--content--left-side{
+    h1 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 51.34px;
+        color: #ff6060;
+        margin: 0px;
+        line-height: 25px;
+      }
+      p {
+        font-size: 14px;
+        margin-top: 10px;
+        }
   }
-  .logement--content--left-side p {
-    font-size: 14px;
-    margin-top: 10px;
-  }
+      
+  
+
+
   .right-side {
     display: flex;
     justify-content: space-between;
   }
+  
+  
+
   .logements--tags--container {
     margin-top: 10px;
   }
@@ -152,18 +165,26 @@
     display: flex;
     align-items: center;
     justify-content: right;
+
+
+      p {
+          font-size: 12px;
+          max-width: 90px;
+          height: 32px;
+          margin: 0;
+          align-items: center;
+        }
+
+      img {
+        height: 32px;
+         width: 32px;
+      }
   }
-  .logement--host--container p {
-    font-size: 12px;
-    max-width: 90px;
-    height: 32px;
-    margin: 0;
-    align-items: center;
-  }
-  .logement--host--container img {
-    height: 32px;
-    width: 32px;
-  }
+
+
+  
+  
+
   .rating--container {
     height: 36px;
     width: 200px;
@@ -171,10 +192,12 @@
     justify-content: start;
     align-items: center;
   }
+
   .rating--star {
     height: 15px;
     padding: 4px;
   }
+
   .logement--deroulants {
     display: flex;
     flex-direction: column;
@@ -182,4 +205,4 @@
     justify-content: space-between;
     gap: 20px;
   }
-}/*# sourceMappingURL=Logement.css.map */
+}

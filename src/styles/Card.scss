@@ -1,0 +1,65 @@
+.card {
+  border-radius: 10px;
+  width: 340px;
+  height: 340px;
+  overflow: hidden;
+  position: relative;
+    img {
+      position: absolute;
+      height: 100%;
+      bottom: 0;
+    }
+}
+
+
+
+.overlay {
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    transparent,
+    rgba(0, 0, 0, 0.24),
+    rgba(0, 0, 0, 0.589)
+    );
+  height: 100%;
+  width: 100%;
+  position: absolute;
+    p {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+      font-size: 18px;
+      font-weight: 500;
+      color: white;
+      }
+}
+
+
+/****** Media queries ***********/
+
+/* TABLET 768px */
+@media (max-width: 768px) {
+  .card {
+    height: 290px;
+    width: 100%;
+      img {
+          position: absolute;
+          height: auto;
+          width: 100%;
+        }
+  }  
+}
+
+/* MOBILE 500px */
+@media (max-width: 500px) {
+  .card {
+    height: 255px;
+      img {
+        position: absolute;
+        height: 100%;
+        width: auto;
+      }
+  }
+
+  
+}

@@ -9,31 +9,27 @@
   padding-left: 5vw;
   padding-right: 5vw;
 }
-
-.header--logo {
+.header img {
   width: 210px;
   height: 100%;
 }
-
-.kasa--menu {
+.header ul {
   display: flex;
   gap: 50px;
   padding: 0;
-
   font-size: 24px;
   color: #ff6060;
   font-weight: 500;
   text-decoration: none;
-
   list-style: none;
 }
-.kasa--menu a {
+.header ul a {
   text-decoration: none;
   color: #ff6060;
   font-size: 24px;
   font-weight: 500;
 }
-.kasa--menu a.active {
+.header ul a.active {
   text-decoration: underline;
 }
 
@@ -46,12 +42,10 @@
     padding-left: 5vw;
     padding-right: 5vw;
   }
-
-  .header--logo {
+  .header img {
     width: 170px;
   }
 }
-
 /* MOBILE 375px */
 @media (max-width: 500px) {
   .header {
@@ -59,20 +53,16 @@
     padding-bottom: 20px;
     padding-left: 5vw;
     padding-right: 5vw;
-
     margin: 0px;
   }
-
-  .header--logo {
+  .header img {
     width: 142px;
   }
-
-  .kasa--menu {
+  .header ul {
     gap: 26px;
   }
-
-  .kasa--menu a {
+  .header ul a {
     font-size: 12px;
     text-transform: uppercase;
   }
-}
+}/*# sourceMappingURL=Header.css.map */

@@ -23,15 +23,15 @@ return <div className="logement--container">
                 <Slideshow/>
                 <div className="logement--content">
                     <div className="logement--content--left-side">
-                        <h1 className="logement--title">{props.title}</h1> 
-                        <p className="logement--localisation">{props.location}</p>
+                        <h1>{props.title}</h1> 
+                        <p>{props.location}</p>
                         <Tags/>
                         
                     </div>
                     <div className="logement--content--right-side">
                         <div className="logement--host--container">
-                            <p className="logement--host--name">{props.hostname}</p>
-                            <img className='logement--host--picture'
+                            <p>{props.hostname}</p>
+                            <img 
                                  src ={props.hostpicture} 
                                  alt={props.hostname}
                             />
@@ -40,12 +40,9 @@ return <div className="logement--container">
                             rating={currentLogement.rating}
                             key={currentLogement.title}
                             />
-                        
-                            
-                           
-                       
                     </div>
                 </div>
+                
                 <div className="logement--deroulants">
                     <Collapse
                         title='Description'

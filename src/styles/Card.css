@@ -5,27 +5,19 @@
   overflow: hidden;
   position: relative;
 }
-
-.card--img {
+.card img {
   position: absolute;
   height: 100%;
   bottom: 0;
 }
 
 .overlay {
-  background-image: linear-gradient(
-    to bottom,
-    transparent,
-    transparent,
-    rgba(0, 0, 0, 0.24),
-    rgba(0, 0, 0, 0.589)
-  );
+  background-image: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.589));
   height: 100%;
   width: 100%;
   position: absolute;
 }
-
-.card--title {
+.overlay p {
   position: absolute;
   bottom: 8px;
   left: 16px;
@@ -33,31 +25,28 @@
   font-weight: 500;
   color: white;
 }
-/****** Media queries ***********/
 
+/****** Media queries ***********/
 /* TABLET 768px */
 @media (max-width: 768px) {
   .card {
     height: 290px;
     width: 100%;
   }
-
-  .card--img {
+  .card img {
     position: absolute;
     height: auto;
     width: 100%;
   }
 }
-
 /* MOBILE 500px */
 @media (max-width: 500px) {
   .card {
     height: 255px;
   }
-
-  .card--img {
+  .card img {
     position: absolute;
     height: 100%;
     width: auto;
   }
-}
+}/*# sourceMappingURL=Card.css.map */

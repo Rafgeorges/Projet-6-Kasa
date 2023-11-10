@@ -8,10 +8,10 @@ export default function Header(){
     return (
         <header className='header'>
                 <Link to={`/`}>
-                    <img src={kasaLogo} alt='kasalogo'className='header--logo'/>
+                    <img src={kasaLogo} alt='kasalogo'/>
                 </Link>
                 <nav>
-                    <ul className='kasa--menu'>
+                    <ul>
                         <NavLink  to={`/`}><li>Accueil</li></NavLink> 
                         <NavLink  to={`/About`}><li>A Propos</li></NavLink>
                     </ul>
