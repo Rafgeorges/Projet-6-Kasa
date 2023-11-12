@@ -13,7 +13,7 @@ export default function PageLogement(){
     const currentLogement = logementsData[index]
 
     
-     return <div>
+     return <div className="page_logement">
                 <Header/>
                 <Logement
                     key={currentLogement.id}
