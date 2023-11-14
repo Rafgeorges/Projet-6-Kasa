@@ -9,7 +9,6 @@ export default function PageAbout(){
         <>
             <Header/>
             <div className="pageAbout">
-            
             <div className="about--main">
                     <Banner
                         image={aboutBanner}
