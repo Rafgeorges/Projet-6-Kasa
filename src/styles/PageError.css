@@ -1,8 +1,4 @@
 .pageError__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border: 3px solid red;
   min-height: 100vh;
 }
 
@@ -12,7 +8,6 @@
   align-items: center;
   gap: 130px;
   padding: 130px;
-  border: 3px solid blueviolet;
 }
 .error--content h1 {
   color: #ff6060;
